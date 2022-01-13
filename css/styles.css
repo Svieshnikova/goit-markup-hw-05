@@ -515,6 +515,8 @@ b {
   border: none;
   background-color: #f5f4fa;
   border-radius: 4px;
+  transition: var(--transition), var(--transition-second),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-item:hover,
 .button-item:focus {
@@ -567,11 +569,14 @@ b {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  /* transition: box-shadow 1000ms mscubic-bezier(0.4, 0, 0.2, 1); */
 }
 .servis-item-link:hover,
 .servis-item-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .servis-item-link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
