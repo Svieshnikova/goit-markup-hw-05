@@ -81,7 +81,7 @@ img {
 .subtitle-list {
   display: flex;
 }
-.subtitle-link {
+.subtitle-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -93,8 +93,8 @@ img {
   color: var(--second-color);
 }
 
-.subtitle-link:hover,
-.subtitle-link:focus {
+.subtitle-item:hover,
+.subtitle-item :focus {
   color: var(--second-color);
 }
 .subtitle-item:not(:last-child) {
@@ -154,7 +154,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-item:hover,
-.contacts-item:focus {
+.contacts-item :focus {
   color: var(--second-color);
 }
 .contacts-icon {
