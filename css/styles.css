@@ -90,8 +90,8 @@ img {
 }
 .subtitle-link-current {
   color: var(--second-color);
-  /* transition: color 3000ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
+
 .subtitle-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
