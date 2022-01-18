@@ -625,9 +625,11 @@ b {
   position: relative;
   overflow: hidden;
 }
-.servis-item:hover .overlay {
+.servis-item-link:hover .overlay,
+.servis-item-link:focus .overlay {
   transform: translateY(0);
 }
+
 .overlay {
   position: absolute;
   top: 0;
